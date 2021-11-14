@@ -1,0 +1,38 @@
+.overview {
+  background: url('./../../../assets/img/bg-overview.png') no-repeat;
+  background-color: #2d134e;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+
+  &__left {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__right {
+    flex-basis: 40%;
+  }
+
+  &__img {
+    display: block;
+    height: 46rem;
+    width: 40rem;
+  }
+}
